@@ -3,7 +3,11 @@ import { Box } from '@mui/material';
 
 const Rightbar = () => {
     return (
-        <Box bgcolor="darkcyan"  flex={2} p={2}>Rightbar</Box>
+        <Box flex={2} p={2}>
+            <Box position="fixed">
+            hello
+            </Box>
+        </Box>
     );
 }
 
